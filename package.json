@@ -1,0 +1,16 @@
+{
+  "name": "uxium",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "private": false,
+  "description": "A js object schema to form element.",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "author": "LeulAria",
+  "license": "ISC",
+  "peerDependencies": {},
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
