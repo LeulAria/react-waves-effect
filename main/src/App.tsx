@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import { Uxium } from './uxium';
+import YourLibrary from './library-name';
 
 function App() {
   return (
     <div className="App">
-      <Uxium>Uxium here</Uxium>
+      <YourLibrary>My Library</YourLibrary>
     </div>
   )
 }
