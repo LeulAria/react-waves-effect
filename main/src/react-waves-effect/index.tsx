@@ -18,7 +18,7 @@ interface IProps {
     | React.ReactChildren[];
 }
 
-export const Ripple = ({
+const index = ({
   pointer = true,
   radius = "50%",
   color = "#FFF",
@@ -74,3 +74,5 @@ export const Ripple = ({
     </div>
   );
 };
+
+export default index
