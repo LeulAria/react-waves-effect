@@ -1,5 +1,5 @@
 import React from "react";
-import {Ripple} from "./react-waves-effect";
+import {Ripple} from "react-waves-effect";
 
 function App() {
   return (

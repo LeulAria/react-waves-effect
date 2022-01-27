@@ -1,6 +1,15 @@
+.github
+assets
+docs
 main
 node_modules
 .git
 .gitignore
+tsconfig.json
+yarn.lock
+package-lock.json
+LICENSE
+mkdocs.yml
+README.md
 tsconfig.json
 yarn.lock

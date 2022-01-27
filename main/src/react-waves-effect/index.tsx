@@ -1,4 +1,4 @@
-import React, {useRef, useState} from "react";
+import React from "react";
 import "./ripple.css";
 interface IProps {
   pointer?: boolean;
@@ -18,7 +18,7 @@ interface IProps {
     | React.ReactChildren[];
 }
 
-export const Ripple = ({
+const index = ({
   pointer = true,
   radius = "50%",
   color = "#FFF",
@@ -79,3 +79,5 @@ export const Ripple = ({
     </div>
   );
 };
+
+export default index
