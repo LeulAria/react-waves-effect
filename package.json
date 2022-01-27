@@ -1,14 +1,30 @@
 {
-  "name": "library-name",
+  "name": "react-waves-effect",
   "version": "0.0.1",
   "main": "lib/index.js",
   "private": false,
-  "description": "A js object schema to form element.",
+  "description": "Waves effect react component!",
   "scripts": {
     "build": "tsc -p ."
   },
   "author": "LeulAria",
   "license": "ISC",
+  "keywords": [
+    "react",
+    "waves",
+    "waves effect",
+    "ripple effect",
+    "react waves",
+    "react ripple",
+    "react wave effect",
+    "react ripple effect",
+    "react waves effects",
+    "react ripples effects",
+    "react waves component",
+    "react ripples component",
+    "react waves effect component",
+    "react ripple effect components"
+  ],
   "peerDependencies": {},
   "devDependencies": {
     "typescript": "^4.3.5"

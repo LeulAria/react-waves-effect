@@ -62,6 +62,6 @@
     "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
   },
   "include": [
-    "main/src/library-name"
+    "main/src/react-waves-effect"
   ]
 }

@@ -1,10 +1,27 @@
 import React, { useState } from 'react'
-import YourLibrary from './library-name';
+import { Ripple } from './react-waves-effect';
+// import { Ripple } from '../../lib'
+// import { Ripple } from './lib'
 
 function App() {
   return (
     <div className="App">
-      <YourLibrary>My Library</YourLibrary>
+      <Ripple
+        color="yellow"
+        animationDuration={700}
+        endHeight='200px'
+        endWidth='200px'
+        animationEasing='ease-out'
+      >
+        <div
+          style={{
+            width: "300px",
+            maxWidth: "300px",
+            height: "300px",
+            background: 'black'
+          }}
+        ></div>
+      </Ripple>
     </div>
   )
 }
