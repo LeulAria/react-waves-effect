@@ -1,6 +1,5 @@
 import React, {useRef, useState} from "react";
 import "./ripple.css";
-
 interface IProps {
   pointer?: boolean;
   radius?: string;
@@ -58,21 +57,20 @@ const index = ({
 
   return (
     <div
+      id={id}
       onClick={addRipple}
-      className="wave-container"
       style={{
-        width: 'max-content',
-        height: 'max-content',
+        width: "max-content",
+        height: "max-content",
         overflow: "hidden",
         position: "relative",
         border: "5px solid red",
         cursor: `${pointer && "pointer"}`,
       }}
-      id={id}
     >
       {children}
     </div>
   );
 };
 
-export default index
+export default index;

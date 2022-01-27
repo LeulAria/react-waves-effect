@@ -1,14 +1,14 @@
-import React, {useState} from "react";
-import Ripple from "./react-waves-effect";
+import React from "react";
+import Ripple from "react-waves-effect";
 
 function App() {
   return (
     <div className="App">
       <Ripple
         color="yellow"
-        animationDuration={700}
         endHeight="200px"
         endWidth="200px"
+        animationDuration={700}
         animationEasing="ease-out"
       >
         <div
