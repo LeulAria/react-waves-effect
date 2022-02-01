@@ -30,18 +30,18 @@ const index = ({
   children,
 }: IProps) => {
   const charset: string = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-  const id = [...Array(5)]
+  const id = `${[...Array(5)]
     .map((_) => charset[Math.floor(Math.random() * charset.length)])
-    .join("");
+    .join("")}id`;
 
   const addRipple = (e: any) => {
-    const x = e.clientX - e.target.offsetLeft;
-    const y = e.clientY - e.target.offsetTop;
+    const x = e.clientX - e.target.getBoundingClientRect().left;
+    const y = e.clientY - e.target.getBoundingClientRect().top;
 
     let ripples = document.createElement("span");
     ripples.classList.add("wave");
-    ripples.style.left = x + "px";
-    ripples.style.top = y + "px";
+    ripples.style.left = `${x}px`;
+    ripples.style.top = `${y}px`;
 
     // add style
     ripples.style.width = endWidth;
@@ -65,7 +65,7 @@ const index = ({
 
   return (
     <div
-      id={id}
+      id={`${id}`}
       onClick={addRipple}
       style={{
         width: "max-content",
@@ -80,4 +80,4 @@ const index = ({
   );
 };
 
-export default index
+export default index;
