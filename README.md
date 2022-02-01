@@ -3,7 +3,7 @@ font-weight: 900;
 font-size: 3rem;
 line-height: 0;
 margin: 4rem 0 2.5rem;
-">FireQuery</b></h1>
+">React Waves Effect</b></h1>
 <p align="center">
   <img src="https://img.shields.io/bundlephobia/minzip/react-waves-effect?style=flat-square" alt="package size" />
   <img src="https://img.shields.io/npm/dw/react-waves-effect?style=flat-square" alt="npm version" />
