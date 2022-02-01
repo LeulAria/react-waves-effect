@@ -2,6 +2,7 @@ name: deploy to ghpages
 on:
   push:
     branches:
+      - master
       - main
 jobs:
   deploy:
