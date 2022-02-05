@@ -1,5 +1,6 @@
 import React from "react";
 import Ripple from "./react-waves-effect";
+import "./react-waves-effect/ripple.css";
 
 function App() {
   return (
