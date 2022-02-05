@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+  --md-text-font-family: "Inter", Roboto, sans-serif;
+  --md-code-font-family: "Space Mono", monospace;
+}
+
+a.external-link::after {
+  /* \00A0 is a non-breaking space
+      to make the mark be on the same line as the link
+  */
+  content: "\00A0[↪]";
+}
+
+a.internal-link::after {
+  /* \00A0 is a non-breaking space
+      to make the mark be on the same line as the link
+  */
+  content: "\00A0↪";
+}
+
+div.doc-contents:not(.first) {
+  padding-left: 25px;
+  border-left: 4px solid rgba(230, 230, 230);
+  margin-bottom: 80px;
+}
