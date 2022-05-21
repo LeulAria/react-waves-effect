@@ -74,7 +74,7 @@ const Ripple = ({
       ripples.remove();
     }, animationDuration);
 
-    document.querySelector(`#${id}`)?.appendChild(ripples);
+    buttonRef.current?.appendChild(ripples);
     if (onClick) {
       onClick();
     }
